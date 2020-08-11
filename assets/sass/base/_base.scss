@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -z-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+  //  font-family: 'Montserrat', sans-serif;
+   // font-family: 'Poppins', sans-serif;
+  //  font-family: 'Raleway', sans-serif;
+  //  font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: $text-c-head;
+}

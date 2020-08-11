@@ -1,0 +1,19 @@
+{
+  "name": "singinpage",
+  "version": "1.0.0",
+  "description": "Sign In Page",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass assets/sass/main.scss assets/css/style.css -w",
+    "dev": "node-sass assets/sass/main.scss assets/css/style.css"
+  },
+  "keywords": [
+    "jb"
+  ],
+  "author": "Jahangir Alam",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^14.7.0",
+    "node-sass": "^4.14.1"
+  }
+}

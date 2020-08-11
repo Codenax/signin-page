@@ -1,0 +1,117 @@
+
+.sing-in-page{
+    background: linear-gradient(rgba(6, 85, 119, 0.788),rgba(0, 0, 0, 0.795)), url(/assets/images/background/2.jpg);
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.jb-sign-in-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: auto;
+    background-color:$background-c-wh ;
+    text-align: center;
+    padding: 2rem 2rem;
+    padding-bottom: 0rem;
+    border: solid .5rem $primary-c;
+    border-left: none;
+    border-right: none;
+    border-radius: 1rem;
+    box-shadow: $primary-sh;
+    .header{
+       // background-color: $primary-c;
+        img{
+            width: 50%;
+            height: auto;
+        
+        }
+    }
+    .contain{
+        margin-top: 3rem;
+    
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+        border-top: solid 1px $primary-c-bo-2;
+        h4{
+            font-weight: 600;
+            font-size: 2rem;
+            //text-transform: capitalize;
+        }
+    }
+    .form-area{       
+        input{
+            font-size: 1.6rem;
+            font-weight: 500;
+            width: 100%;
+            margin-bottom: 2rem;
+            text-transform: unset;
+            outline: none;
+            border: 1px solid $primary-c-bo-2;
+            border-radius: 3px;
+            height: 3.6rem;
+        }
+        .form-control:focus {
+            outline: 0;
+            box-shadow: $card-sh;
+            border-color: #bcc5c9;
+            background-color: #fff;
+            color: #364750;
+            outline: 0;
+            box-shadow: $input-sh;
+          }
+          ::placeholder{
+              color: #98a8ad ;
+          }
+    }
+    .btn:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .button-login{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 600;
+        background-color: $primary-c;
+        border-radius: .5rem;
+        padding: .5rem 5rem;
+        transition: all 0.5s;
+    }
+    .button-login:hover{
+      
+        background-color: #06cdf0;
+        border-radius: .5rem;
+        text-decoration: none;
+        box-shadow: $icon-sh;
+        transition: all 0.5s;
+    }
+
+    .footer{
+        border-top: solid 1px $primary-c-bo-2;
+       padding-top: 1rem;
+        padding-bottom: 0rem;
+        p{
+            font-weight: 500;
+            font-size: 1.4rem;
+            a{
+                color: $primary-c;
+            }
+            a:hover{
+                color: #06cdf0;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media(max-width:360px){
+    .jb-sign-in-1{
+        width: 300px;
+    }
+}
